@@ -1,0 +1,95 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(https://wallpaperaccess.com/full/84248.png);
+    background-size:inherit;
+    background-repeat: no-repeat;
+}
+.first-text{
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 10%;
+    min-width: 529px;
+    min-height: 300px;
+}
+.first-text h3{
+    text-indent: 40px;
+    color: rgb(190, 190, 157);
+}
+.first-text h1{
+    letter-spacing: 3px;  
+    color: aliceblue;  
+}
+span{
+    color:rgb(255, 208, 167);
+    letter-spacing: 10px;
+}
+.log{
+    min-width: 300px;
+    padding-left: 10%;
+    float: left;
+    transform: translate(100%, 100%);
+    color: rgb(255, 196, 196);
+}
+.log h1{
+    float:left top;   
+    font-size: 40px;
+    border-bottom:5px rgb(255, 196, 196) solid;
+    margin-bottom:40px ;
+    padding: 10px 0px;
+    max-width: 115px;
+    color: wheat;
+}
+.text-area{
+    background:transparent;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-bottom: 1px solid;    
+}
+.text-area input{
+    outline:none;
+    border: none;
+    background: none;
+}
+.text-area ::placeholder {
+    color:rgb(255, 196, 196);
+    opacity: 1;
+}
+#symbol{
+    float: left; 
+    color: wheat;
+    margin-right: 10px ;
+}    
+input{
+    color: whitesmoke;
+}
+.btn{
+    background-color:rgba(34, 34, 34, 0.692);
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.target{
+    margin-left: 69px;
+    margin-top: 10px;
+    padding-left: 4%;
+}
+a{
+    color: rgb(255, 197, 143);
+}
+a:hover{
+    color: peachpuff;
+}
+.hidden {
+    visibility: hidden;
+}
+small{
+    color: red;
+}
